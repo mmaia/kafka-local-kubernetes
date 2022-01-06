@@ -1,2 +1,4 @@
 tmp/kafka-data/*
 tmp/zookeeper-data/*
+
+.vscode
