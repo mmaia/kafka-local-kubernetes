@@ -25,7 +25,7 @@ spec:
               value: "kafka:29092"
             - name: SCHEMA_REGISTRY_LISTENERS
               value: "http://0.0.0.0:30081"
-          image: confluentinc/cp-schema-registry:6.2.1
+          image: confluentinc/cp-schema-registry:7.0.1
           name: schema-registry
           ports:
             - containerPort: 30081

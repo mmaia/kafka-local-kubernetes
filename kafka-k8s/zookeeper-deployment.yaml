@@ -27,7 +27,7 @@ spec:
               value: "/var/lib/zookeeper/log"
             - name: ZOOKEEPER_SERVER_ID
               value: "1"
-          image: confluentinc/cp-zookeeper:6.2.1
+          image: confluentinc/cp-zookeeper:7.0.1
           name: zookeeper
           ports:
             - containerPort: 2181
