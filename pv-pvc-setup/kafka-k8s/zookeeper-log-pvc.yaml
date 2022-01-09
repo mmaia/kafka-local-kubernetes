@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: PersistentVolumeClaim
+metadata:
+  name: zookeeper-log-pvc
+spec:
+  accessModes:
+    - ReadWriteOnce
+  storageClassName: zookeeper-log-local-storage
+  resources:
+    requests:
+      storage: 5Gi

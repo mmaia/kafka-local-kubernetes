@@ -1,4 +1,7 @@
-tmp/kafka-data/*
-tmp/zookeeper-data/*
+pv-pvc-setup/tmp/kafka-data/*
+pv-pvc-setup/tmp/zookeeper-data/data/*
+pv-pvc-setup/tmp/zookeeper-data/log/*
 
 .vscode
+
+.idea

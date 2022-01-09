@@ -33,12 +33,17 @@ spec:
             - containerPort: 2181
           resources: {}
           volumeMounts:
-            - mountPath: /var/lib/zookeeper
+            - mountPath: /var/lib/zookeeper/data
               name: zookeeper-data
+            - mountPath: /var/lib/zookeeper/log
+              name: zookeeper-log
       hostname: zookeeper
       restartPolicy: Always
       volumes:
         - name: zookeeper-data
           persistentVolumeClaim:
-            claimName: zookeeper-pvc
+            claimName: zookeeper-data-pvc
+        - name: zookeeper-log
+          persistentVolumeClaim:
+            claimName: zookeeper-log-pvc
 

@@ -14,8 +14,13 @@ nodes:
         readOnly: false
         selinuxRelabel: false
         propagation: Bidirectional
-      - hostPath: ./tmp/zookeeper-data
-        containerPath: /var/lib/zookeeper
+      - hostPath: ./tmp/zookeeper-data/data
+        containerPath: /var/lib/zookeeper/data
+        readOnly: false
+        selinuxRelabel: false
+        propagation: Bidirectional
+      - hostPath: ./tmp/zookeeper-data/log
+        containerPath: /var/lib/zookeeper/log
         readOnly: false
         selinuxRelabel: false
         propagation: Bidirectional
