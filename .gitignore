@@ -2,6 +2,10 @@ pv-pvc-setup/tmp/kafka-data/*
 pv-pvc-setup/tmp/zookeeper-data/data/*
 pv-pvc-setup/tmp/zookeeper-data/log/*
 
+storage-class-setup/tmp/kafka-data/*
+storage-class-setup/tmp/zookeeper-data/data/*
+storage-class-setup/tmp/zookeeper-data/log/*
+
 .vscode
 
 .idea
