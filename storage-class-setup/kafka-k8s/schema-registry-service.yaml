@@ -13,5 +13,3 @@ spec:
   type: NodePort
   selector:
     service: schema-registry
-status:
-  loadBalancer: {}
