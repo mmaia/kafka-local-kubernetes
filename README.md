@@ -30,7 +30,7 @@ explicitly.
 
 > After running `kind create...` command on step 3 above, if you have the images already downloaded in your local docker
 > registry you should load them on Kind so it won't try to download the images every time, to do that use: 
-> `kind  kind load docker-image $image_name` i.e - `kind load docker-image confluentinc/cp-kafka:7.0.1`
+> `kind load docker-image $image_name` i.e - `kind load docker-image confluentinc/cp-kafka:7.0.1`
 
 ### Step by step instructions to run pv-pvc-setup folder
 
