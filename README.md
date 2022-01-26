@@ -74,13 +74,13 @@ Helm Charts.
 
 Check kubernetes pods, services, volumes health:
 
-    - `kubectl get pods` - a list of all pods
-    - `kubectl get svc` - a list of all services
-    - `kubectl get pv` - a list of all persistent volumes
-    - `kubectl get pvc` - a list of all persistent volume claims
-    - `kubectl describe pod $pod_name` - describe a specific pod
-    - `kubectl logs $pod_name` - get logs for a specific pod
-    - `kubectl exec -it $pod_name -- bash` - enters container and run a bash shell in a specific pod
+ - `kubectl get pods` - a list of all pods
+ - `kubectl get svc` - a list of all services
+ - `kubectl get pv` - a list of all persistent volumes
+ - `kubectl get pvc` - a list of all persistent volume claims
+ - `kubectl describe pod $pod_name` - describe a specific pod
+ - `kubectl logs $pod_name` - get logs for a specific pod
+ - `kubectl exec -it $pod_name -- bash` - enters container and run a bash shell in a specific pod
 
 > The last command opens a terminal session in a running kubernetes container with bash context. Use `exit` to quit.
 
