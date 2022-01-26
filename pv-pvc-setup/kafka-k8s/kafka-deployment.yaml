@@ -29,7 +29,7 @@ spec:
           - name: CONFLUENT_SUPPORT_CUSTOMER_ID
             value: "anonymous"
           - name: KAFKA_ADVERTISED_LISTENERS
-            value: "INTERNAL://kafka:29092,LISTENER_EXTERNAL://kafka:9092"
+            value: "INTERNAL://kafka:29092,LISTENER_EXTERNAL://localhost:9092"
           - name: KAFKA_AUTO_CREATE_TOPICS_ENABLE
             value: "true"
           - name: KAFKA_BROKER_ID

@@ -1,0 +1,5 @@
+confluent:
+  version: 7.0.1
+  kafka: confluentinc/cp-kafka
+  schemaRegistry: confluentinc/cp-schema-registry
+  zookeeper: confluentinc/cp-zookeeper

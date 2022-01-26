@@ -2,6 +2,8 @@ pv-pvc-setup/tmp/*
 
 storage-class-setup/tmp/*
 
+helm/tmp/*
+
 .vscode
 
 .idea

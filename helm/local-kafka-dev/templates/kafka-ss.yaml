@@ -20,7 +20,7 @@ spec:
       containers:
       - name: kafka
         imagePullPolicy: IfNotPresent
-        image: confluentinc/cp-kafka:7.0.1
+        image: {{ .Values.confluent.kafka }}:{{ .Values.confluent.version }}
         ports:
           - containerPort: 29092
           - containerPort: 9092

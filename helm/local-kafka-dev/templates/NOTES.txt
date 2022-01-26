@@ -1,0 +1,19 @@
+Congratulations ! You installed {{ .Chart.Name }} chart successfully.
+Release name is {{ .Release.Name }}
+
+The setup is running Confluent Kafka, Schema Registry and Zookeeper version: {{ .Values.confluent.version }}
+
+Some useful helm commands:
+helm install $release_name $chart_name
+helm uninstall $release_name
+helm list --short
+helm list
+
+Some useful kubectl commands:
+kubectl get pods
+kubectl logs $pod_name [-f]
+kubectl get all
+
+
+
+Have fun!
