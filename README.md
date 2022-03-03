@@ -60,7 +60,7 @@ slightly more complex as it uses the Persistent Volumes and Persistent Volume Cl
 > Check Kind docker containers with Kubernetes control-plane and worker running with `docker ps`
 
 
-### Step-by-step 
+### Step-by-step to running with Helm
 
 This setup gives you the same initial setup from the `storage-class-setup` with the added flexibility and convenience of 
 Helm Charts. 
